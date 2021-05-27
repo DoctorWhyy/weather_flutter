@@ -1,11 +1,7 @@
-import 'dart:math';
-
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:weather_app/data/local/model/weather.dart';
 import 'dart:async';
-
-import 'package:weather_app/data/local/model/weather.dart';
 
 class LocalDataSource {
   static void initialize() async {

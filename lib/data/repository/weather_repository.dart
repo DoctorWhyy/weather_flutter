@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:weather_app/config/constants.dart';
 import 'package:weather_app/data/local/local_datasource.dart';
 import 'package:weather_app/data/remote/api/weather_api_client.dart';
-import 'package:weather_app/data/remote/model/weather.dart';
 import 'package:weather_app/data/local/mappers/weather_remote_to_local_mapper.dart';
 import 'package:weather_app/data/local/mappers/weather_local_to_entity_mapper.dart';
 import 'package:weather_app/domain/entities/weather.dart';

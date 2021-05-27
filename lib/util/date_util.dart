@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 String offsetDateFormatter(int offset) {
   final currentDate = new DateTime.now();
   final dateWithOffset = currentDate.add(Duration(days: offset));

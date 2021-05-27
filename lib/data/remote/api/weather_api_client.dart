@@ -46,6 +46,7 @@ class WeatherApi {
     return Weather.fromJson(weatherJson);
   }
 
+  //Not Implemented
   Future<List<Weather>> fetchCurrentWeather() {}
 
   Future<List<Weather>> fetchWeatherForecast(
